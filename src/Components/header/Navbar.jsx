@@ -17,10 +17,10 @@ const Navbar = () => {
         </div></div>
         {show===true?(<i onClick={()=>setshow(false)} className="fa-solid fa-x text-[18px]"></i>):<i onClick={()=>setshow(true)} className="fa-solid fa-bars desktop text-[18px]"></i>}
     </div>
-        <div className='mobileshown absolute top-[600px]'>
+        <div className='mobileshown absolute top-[620px] '>
             {
                 show===true?(
-                    <div className='bg-gray-200 w-screen p-2'>
+                    <div className='bg-white w-screen p-3 rounded-[30px]'>
                         <ul className='grid grid-cols-3 gap-y-4 text-[18px]'>
                             <li className='flex flex-col items-center'>
                                 <i className="fa-solid fa-house"></i>

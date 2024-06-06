@@ -1,5 +1,6 @@
 .backgroundcolor{
-    background-color: ;
+    background-color: white;
+    z-index: 10;
 }
 .mobileshown{
     display: none;
