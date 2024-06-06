@@ -7,17 +7,17 @@ const Navbar = () => {
         <h1 className='text-[21px] font-[500]'>Rohit</h1>
 
         <div><div className='toshownonmobile'>
-            <ul className='grid md:grid-cols-5 gap-x-8'>
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Skills</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>Contact</a></li>
+            <ul className='grid grid-cols-5 gap-x-8'>
+                <li className='hover:text-black cursor-pointer font-[500]'><a>Home</a></li>
+                <li className='hover:text-black cursor-pointer font-[500]'><a>About</a></li>
+                <li className='hover:text-black cursor-pointer font-[500]'><a>Skills</a></li>
+                <li className='hover:text-black cursor-pointer font-[500]'><a>Portfolio</a></li>
+                <li className='hover:text-black cursor-pointer font-[500]'><a>Contact</a></li>
             </ul>
         </div></div>
-        {show===true?(<i onClick={()=>setshow(false)} className="fa-solid fa-x"></i>):<i onClick={()=>setshow(true)} className="fa-solid fa-bars desktop"></i>}
+        {show===true?(<i onClick={()=>setshow(false)} className="fa-solid fa-x text-[18px]"></i>):<i onClick={()=>setshow(true)} className="fa-solid fa-bars desktop text-[18px]"></i>}
     </div>
-        <div className='mobileshown absolute top-[550px]'>
+        <div className='mobileshown absolute top-[600px]'>
             {
                 show===true?(
                     <div className='bg-gray-200 w-screen p-2'>

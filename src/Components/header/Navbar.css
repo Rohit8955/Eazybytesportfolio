@@ -4,16 +4,10 @@
 .mobileshown{
     display: none;
 }
-.mobile{
-    display: none;
-}
 .desktop{
     display: none;
 }
 @media screen and (max-width:540px){
-    .mobile{
-        display: block;
-    }
     .toshownonmobile{
         display: none;
     }
