@@ -3,7 +3,7 @@ import './Navbar.css'
 const Navbar = () => {
     const [show,setshow] = useState(false);
   return (
-    <div className='relative'><div className='flex items-center justify-between px-[40px] md:px-[100px] py-3 overflow-hidden backgroundcolor'>
+    <div className='relative'><div className='flex items-center justify-between px-[40px] md:px-[100px] py-3 overflow-hidden backgroundcolor boxshadow'>
         <h1 className='text-[21px] font-[500]'>Rohit</h1>
 
         <div><div className='toshownonmobile'>
