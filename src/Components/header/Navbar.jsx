@@ -17,7 +17,7 @@ const Navbar = () => {
         </div></div>
         {show===true?(<i onClick={()=>setshow(false)} className="fa-solid fa-x text-[18px]"></i>):<i onClick={()=>setshow(true)} className="fa-solid fa-bars desktop text-[18px]"></i>}
     </div>
-        <div className='mobileshown absolute top-[620px] '>
+        <div className='mobileshown absolute top-[590px] '>
             {
                 show===true?(
                     <div className='bg-white w-screen p-3 rounded-[30px]'>
