@@ -4,11 +4,11 @@ import "./Home.css";
 import profilemg from "./../../assets/profile.jpg";
 const Home = () => {
   return (
-    <div className=" w-screen flex items-center justify-center mt-[65px] md:mt-[120px]">
+    <div className="w-screen flex items-center justify-center mt-[65px] md:mt-[120px]">
 
-      <div className="flex flex-col md:flex-row items-center gap-[30px] md:gap-[60px]">
+      <div className="overflow-hidden flex flex-col md:flex-row items-center gap-[30px] md:gap-[40px]">
 
-        <div className="flex gap-[40px] md:gap-[70px] items-center">
+        <div className="flex gap-[40px] md:gap-[50px] items-center">
           <Social />
 
           <div className=" h-[200px] w-[200px] md:h-[300px] md:w-[300px]">
@@ -80,14 +80,14 @@ const Home = () => {
             <h1 className=" text-[18px] md:text-[20px]">MERN Developer</h1>
           </div>
 
-          <h1 className=" w-[300px] text-start md:w-[656px]"> 
+          <h1 className=" w-[300px] text-start md:w-[400px]"> 
             I am a passionate MERN Stack web developer seeking a challenging role
             to apply technical skills and creativity to solve problems.
           </h1>
 
-          <div className="bg-gray-700 mt-2 w-[150px] rounded-[12px] p-[6px] cursor-pointer hover:bg-gray-600">
+          <div className="bg-gray-800 mt-2 w-[150px] rounded-[20px] p-[6px] cursor-pointer hover:bg-gray-700">
             <div className="flex items-center justify-center">
-              <h1 className="text-white">Say Hello</h1>
+              <h1 className="text-white">Download CV</h1>
             </div>
           </div>
         </div>
