@@ -4,7 +4,7 @@ import "./Home.css";
 import profilemg from "./../../assets/profile.jpg";
 const Home = () => {
   return (
-    <div className=" w-screen flex items-center justify-center mt-[70px] md:mt-[120px]">
+    <div className=" w-screen flex items-center justify-center mt-[65px] md:mt-[120px]">
 
       <div className="flex flex-col md:flex-row items-center gap-[30px] md:gap-[60px]">
 
@@ -13,7 +13,7 @@ const Home = () => {
 
           <div className=" h-[200px] w-[200px] md:h-[300px] md:w-[300px]">
             <img
-              className="h-full w-full rounded-full object-cover"
+              className="h-full w-full imgkeyframes object-cover"
               src={profilemg}
             />
           </div>
@@ -77,15 +77,15 @@ const Home = () => {
 
           <div className="flex items-center gap-3">
             <h1 className="border-[1px] w-[50px]" />
-            <h1 className=" text-[18px] md:text-[20px]">Frontend Developer</h1>
+            <h1 className=" text-[18px] md:text-[20px]">MERN Developer</h1>
           </div>
 
-          <h1 className=" w-[300px] text-start md:w-[656px]">
-            I am a passionate frontend web developer seeking a challenging role
+          <h1 className=" w-[300px] text-start md:w-[656px]"> 
+            I am a passionate MERN Stack web developer seeking a challenging role
             to apply technical skills and creativity to solve problems.
           </h1>
 
-          <div className="bg-gray-700 w-[150px] rounded-[12px] p-[6px] cursor-pointer">
+          <div className="bg-gray-700 mt-2 w-[150px] rounded-[12px] p-[6px] cursor-pointer hover:bg-gray-600">
             <div className="flex items-center justify-center">
               <h1 className="text-white">Say Hello</h1>
             </div>
