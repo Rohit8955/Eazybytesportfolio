@@ -17,28 +17,29 @@ const Navbar = () => {
         </div></div>
         {show===true?(<i onClick={()=>setshow(false)} className="fa-solid fa-x text-[18px]"></i>):<i onClick={()=>setshow(true)} className="fa-solid fa-bars desktop text-[18px]"></i>}
     </div>
-        <div className='mobileshown absolute top-[590px] '>
+        <div className='mobileshown absolute w-[60%] bg-white top-0 right-0 '>
             {
                 show===true?(
-                    <div className='bg-white w-screen p-3 rounded-[30px]'>
-                        <ul className='grid grid-cols-3 gap-y-4 text-[18px]'>
-                            <li className='flex flex-col items-center'>
+                    <div className='p-3 px-6 h-screen'>
+                        <div className='flex justify-between px-3'><div></div><i onClick={()=>setshow(false)} className="fa-solid fa-x text-[18px]"></i></div>
+                        <ul className='grid grid-cols-1 gap-y-6 text-[18px] mt-3'>
+                            <li className='flex gap-3 items-center'>
                                 <i className="fa-solid fa-house"></i>
                                 <a>Home</a>
                             </li>
-                            <li className='flex flex-col items-center'>
+                            <li className='flex gap-3 items-center'>
                                 <i className="fa-solid fa-address-card"></i>
                                 <a>About</a>
                             </li>
-                            <li className='flex flex-col items-center'>
+                            <li className='flex gap-3 items-center'>
                                 <i className="fa-solid fa-file"></i>
                                 <a>Skills</a>
                             </li>
-                            <li className='flex flex-col items-center'>
+                            <li className='flex gap-3 items-center'>
                                 <i className="fa-solid fa-briefcase"></i>
                                 <a>Portfolio</a>
                             </li>
-                            <li className='flex flex-col items-center'>
+                            <li className='flex gap-3 items-center'>
                                 <i className="fa-solid fa-message"></i>
                                 <a>Contact</a>
                             </li>
