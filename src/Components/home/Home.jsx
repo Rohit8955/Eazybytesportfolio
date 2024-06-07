@@ -4,7 +4,7 @@ import "./Home.css";
 import profilemg from "./../../assets/profile.jpg";
 const Home = () => {
   return (
-    <div className="w-screen flex items-center justify-center mt-[65px] md:mt-[120px]">
+    <div id="home" className="w-screen flex items-center justify-center mt-[65px] md:mt-[120px]">
 
       <div className="overflow-hidden flex flex-col md:flex-row items-center gap-[30px] md:gap-[40px]">
 
