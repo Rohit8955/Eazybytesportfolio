@@ -10,10 +10,10 @@ const Contact = () => {
             <h1>Get in touch</h1>
         </div>
 
-        <div className='flex md:flex-row flex-col gap-4 mt-[20px]'>
+        <div className='flex items-center justify-center'><div className='flex md:flex-row flex-col gap-5 md:gap-[70px] mt-[20px]'>
             <ContactSection1/>
             <ContactSection2/>
-        </div>
+        </div></div>
     </div>
   )
 }
