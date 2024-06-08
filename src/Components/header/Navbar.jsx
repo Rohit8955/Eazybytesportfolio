@@ -11,7 +11,7 @@ const Navbar = () => {
             <ul className='grid grid-cols-5 gap-x-8'>
                 <li onClick={()=>settab('home')} className={`hover:text-black ${tab==='home'?"text-black":null} cursor-pointer font-[500]`}><a href='#home'>Home</a></li>
                 <li onClick={()=>settab('skills')} className={`hover:text-black ${tab==='skills'?"text-black":null} cursor-pointer font-[500]`}><a href='#skills'>Skills</a></li>
-                <li onClick={()=>settab('portfolio')} className={`hover:text-black ${tab==='portfolio'?"text-black":null} cursor-pointer font-[500]`}><a>Portfolio</a></li>
+                <li onClick={()=>settab('portfolio')} className={`hover:text-black ${tab==='portfolio'?"text-black":null} cursor-pointer font-[500]`}><a href='#portfolio'>Portfolio</a></li>
                 <li onClick={()=>settab('contact')} className={`hover:text-black ${tab==='contact'?"text-black":null} cursor-pointer font-[500]`}><a>Contact</a></li>
             </ul>
         </div></div>

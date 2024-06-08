@@ -4,14 +4,18 @@ import Navbar from './Components/header/Navbar'
 import Home from './Components/home/Home'
 import About from './Components/about/About'
 import Skills from './Components/skills/Skills'
+import Projects from './Components/projects/Projects'
+import { Provider } from 'react-redux'
+import Store from './store/Store'
 const App = () => {
   return (
-    <div>
+    <Provider store={Store}><div>
       <Navbar/>
       <Home/>
       {/* <About/> */}
       <Skills/>
-    </div>
+      <Projects/>
+    </div></Provider>
   )
 }
 
