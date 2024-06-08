@@ -8,7 +8,7 @@ const Skills = () => {
     })
     const backendskills = skillsdata.filter((elem)=>elem.category==="Backend");
   return (
-    <div id='skills' className='mt-[40px] md:mt-[100px]'>
+    <div id='skills' className='mt-[50px] md:mt-[100px]'>
 
         <div className='flex flex-col items-center'>
             <h1>Explore My</h1>

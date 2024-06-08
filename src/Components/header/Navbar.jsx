@@ -12,7 +12,7 @@ const Navbar = () => {
                 <li onClick={()=>settab('home')} className={`hover:text-black ${tab==='home'?"text-black":null} cursor-pointer font-[500]`}><a href='#home'>Home</a></li>
                 <li onClick={()=>settab('skills')} className={`hover:text-black ${tab==='skills'?"text-black":null} cursor-pointer font-[500]`}><a href='#skills'>Skills</a></li>
                 <li onClick={()=>settab('portfolio')} className={`hover:text-black ${tab==='portfolio'?"text-black":null} cursor-pointer font-[500]`}><a href='#portfolio'>Portfolio</a></li>
-                <li onClick={()=>settab('contact')} className={`hover:text-black ${tab==='contact'?"text-black":null} cursor-pointer font-[500]`}><a>Contact</a></li>
+                <li onClick={()=>settab('contact')} className={`hover:text-black ${tab==='contact'?"text-black":null} cursor-pointer font-[500]`}><a href='#contact'>Contact</a></li>
             </ul>
         </div></div>
         {show===true?(<i onClick={()=>setshow(false)} className="fa-solid fa-x text-[18px]"></i>):<i onClick={()=>setshow(true)} className="fa-solid fa-bars desktop text-[18px]"></i>}
@@ -33,11 +33,11 @@ const Navbar = () => {
                             </li>
                             <li className='flex gap-3 items-center'>
                                 <i className="fa-solid fa-briefcase"></i>
-                                <a onClick={()=>setshow(false)}>Portfolio</a>
+                                <a href='#portfolio' onClick={()=>setshow(false)}>Portfolio</a>
                             </li>
                             <li className='flex gap-3 items-center'>
                                 <i className="fa-solid fa-message"></i>
-                                <a onClick={()=>setshow(false)}>Contact</a>
+                                <a href='#contact' onClick={()=>setshow(false)}>Contact</a>
                             </li>
                         </ul>
                     </div>

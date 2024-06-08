@@ -14,7 +14,8 @@ export const projects = [
     {
         name:"Swiggy Clone",
         category: "React Native",
-        live:"",
+        live:"https://expo.dev/artifacts/eas/twBNfHhbMuSWDN1F5eJvAJ.apk",
         githubrepo:"https://github.com/Rohit8955/SwiggyCloneReactNative"
     },
+    
 ]

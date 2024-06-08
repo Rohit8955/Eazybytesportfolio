@@ -1,0 +1,7 @@
+.writemediv:hover{
+    cursor: pointer;
+}
+.writemediv:hover .writemeicon{
+    transform: translate(0.5rem);
+    color: rgb(29, 141, 29);
+}

@@ -12,13 +12,13 @@ const Projects = () => {
     const arr = useSelector((state)=>state.projectlist.data);
     console.log(arr)
   return (
-    <div id='portfolio' className='mt-[50px]'>
+    <div id='portfolio' className='mt-[50px] md:mt-[100px]'>
         <div className='flex flex-col items-center'>
             <h1>Browse My Recent</h1>
             <h1 className='text-black text-[24px] font-[500]'>Projects</h1>
         </div>
 
-        <div className='flex items-center justify-center mt-4'><div className='flex gap-3'>
+        <div className='flex items-center justify-center mt-4'><div className='flex flex-wrap gap-3'>
             {
                 uniquecategories.map((elem,idx)=>{
                     return (

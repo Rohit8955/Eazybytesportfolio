@@ -7,6 +7,7 @@ import Skills from './Components/skills/Skills'
 import Projects from './Components/projects/Projects'
 import { Provider } from 'react-redux'
 import Store from './store/Store'
+import Contact from './Components/contact/Contact'
 const App = () => {
   return (
     <Provider store={Store}><div>
@@ -15,6 +16,7 @@ const App = () => {
       {/* <About/> */}
       <Skills/>
       <Projects/>
+      <Contact/>
     </div></Provider>
   )
 }

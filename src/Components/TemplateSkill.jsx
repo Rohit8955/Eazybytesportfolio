@@ -2,12 +2,12 @@ import React from "react";
 
 const TemplateSkill = ({skill,level}) => {
   return (
-    <div className="flex flex-col text-[14px]">
-      <div className="flex gap-3 items-center">
-        <i className="fa-solid fa-circle-check text-black"></i>
+    <div className="flex gap-2   text-[14px]">
+      <i className="fa-solid fa-circle-check text-black mt-1"></i>
+      <div className="flex flex-col items-start">
         <h1 className="font-[600] text-black">{skill}</h1>
+        <h1 className="text-[12px]">{level}</h1>
       </div>
-      <h1 className="text-[12px]">{level}</h1>
     </div>
   );
 };
