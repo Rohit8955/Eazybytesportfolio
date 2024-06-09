@@ -31,7 +31,7 @@ const Projects = () => {
         <div className='flex items-center justify-center mt-5'><div className='grid grid-cols-1 md:grid-cols-3'>
             {
                 arr.map((elem,idx)=>{
-                    return <ProjectCard name={elem.name} github={elem.githubrepo} live={elem.live} key={idx}/>
+                    return <ProjectCard image={elem.image} name={elem.name} github={elem.githubrepo} live={elem.live} key={idx}/>
                 })
             }
         </div></div>
