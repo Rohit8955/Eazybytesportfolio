@@ -2,6 +2,7 @@ import React from "react";
 import Social from "./Social";
 import "./Home.css";
 import profilemg from "./../../assets/profile.jpg";
+import resume from '../../assets/resume.pdf'
 const Home = () => {
   return (
     <div id="home" className="w-screen flex items-center justify-center mt-[65px] md:mt-[120px]">
@@ -86,9 +87,9 @@ const Home = () => {
           </h1>
 
           <div className="bg-gray-800 mt-2 w-[150px] rounded-[20px] p-[6px] cursor-pointer hover:bg-gray-700">
-            <div className="flex items-center justify-center">
+            <a href={resume} download={resume} className="flex items-center justify-center">
               <h1 className="text-white">Download CV</h1>
-            </div>
+            </a>
           </div>
         </div>
       </div>
