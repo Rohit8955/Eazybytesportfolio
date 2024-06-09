@@ -28,34 +28,34 @@ const ContactSection2 = () => {
       <form ref={form} onSubmit={sendEmail} className=" mt-5">
         <div className="flex flex-col gap-5 items-center">
           <div className="relative h-[40px] w-[300px]">
-            <label className="absolute top-[-11px]  left-6 label">Name</label>
+            <label className="absolute z-10 bg-gray-50 top-[-11px]  left-6 label">Name</label>
             <input
               name="name"
-              className="input absolute top-0 left-0  w-full h-full  px-[10px] border-gray-400 border-[1px] rounded-[0.75rem] outline-none "
+              className="input absolute z-0 bg-gray-50 top-0 left-0  w-full h-full  px-[10px] border-gray-400 border-[1px] rounded-[0.75rem] outline-none "
               type="text"
               placeholder="insert your name"
             />
           </div>
           <div className="relative h-[40px] w-[300px]">
-            <label className="absolute top-[-11px] z-500  left-6 label">
+            <label className="absolute top-[-11px] bg-gray-50 z-10  left-6 label">
               Email
             </label>
             <input
               name="email"
-              className="input z-100 absolute top-0 left-0  w-full h-full  px-[10px] border-gray-400 border-[1px] rounded-[0.75rem] outline-none "
+              className="input z-0 absolute top-0 left-0 bg-gray-50  w-full h-full  px-[10px] border-gray-400 border-[1px] rounded-[0.75rem] outline-none "
               type="email"
               placeholder="insert your Email"
             />
           </div>
           <div className="relative h-[120px] w-[300px]">
-            <label className="absolute top-[-11px] z-10  left-6 label">
+            <label className="absolute top-[-11px] bg-gray-50 z-10  left-6 label">
               Project
             </label>
             <textarea
               name="project"
               rows="10"
               cols="30"
-              className="input z-0 absolute top-0 left-0  w-full h-[120px]  px-[10px] border-gray-400 border-[1px] rounded-[0.75rem] outline-none "
+              className="input z-0 absolute top-0 left-0 bg-gray-50  w-full h-[120px] py-2 px-[10px] border-gray-400 border-[1px] rounded-[0.75rem] outline-none "
               placeholder="write your project"
             ></textarea>
           </div>
