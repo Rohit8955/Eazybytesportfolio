@@ -21,7 +21,7 @@ const ContactSection2 = () => {
       );
   };
   return (
-    <div>
+    <div className="mb-[20px]">
       <h1 className="text-black font-[500] text-[18px] text-center ">
         Write me your project
       </h1>
