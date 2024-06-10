@@ -2,6 +2,7 @@ import React from "react";
 import Social from "./Social";
 import "./Home.css";
 import profilemg from "./../../assets/profile.jpg";
+import rohitimg from '../../assets/rohit1.jpg'
 import resume from '../../assets/resume.pdf'
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
           <div className=" h-[200px] w-[200px] md:h-[300px] md:w-[300px]">
             <img
               className="h-full w-full imgkeyframes object-cover"
-              src={profilemg}
+              src={rohitimg}
             />
           </div>
         </div>

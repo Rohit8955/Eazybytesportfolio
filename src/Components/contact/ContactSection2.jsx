@@ -27,7 +27,7 @@ const ContactSection2 = () => {
       </h1>
       <form ref={form} onSubmit={sendEmail} className=" mt-5">
         <div className="flex flex-col gap-5 items-center">
-          <div className="relative h-[40px] w-[300px]">
+          <div className="relative h-[47px] w-[300px]">
             <label className="absolute z-10 bg-gray-50 top-[-11px]  left-6 label">Name</label>
             <input
               name="name"
@@ -36,7 +36,7 @@ const ContactSection2 = () => {
               placeholder="insert your name"
             />
           </div>
-          <div className="relative h-[40px] w-[300px]">
+          <div className="relative h-[47px] w-[300px]">
             <label className="absolute top-[-11px] bg-gray-50 z-10  left-6 label">
               Email
             </label>
